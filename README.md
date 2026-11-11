@@ -4,6 +4,10 @@ Self-hosted study bot and question bank for the AWS Certified Solutions Architec
 
 In practice it is served on the web by [exam-portal](https://github.com/gcjk768/exam-portal) (container `exam-portal-sg`, link `/saa/`), which imports this `bot.py` and shares its `data/state.json`.
 
+## Architecture
+
+![Architecture of the SAA-C03 study bot](docs/architecture.svg)
+
 ## Domains (exam guide)
 
 | Domain | Weight |
